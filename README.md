@@ -43,7 +43,7 @@ Then open <http://localhost:8000/> and <http://localhost:8000/en/>.
 ## Deploying to GitHub Pages
 
 1. Push to `main`.
-2. GitHub → repo **Settings → Pages** → Source: *Deploy from a branch*, branch `main`, folder `/ (root)`.
+2. GitHub → repo **Settings → Pages** → Source: *Deploy from a branch*, branch `main`, folder `/ (root)`. On the free GitHub plan the repo has to be public for Pages to work.
 3. At the domain registrar, add DNS records for `house-bonita.com`:
 
    | Type  | Host  | Value                |
@@ -58,7 +58,7 @@ Then open <http://localhost:8000/> and <http://localhost:8000/en/>.
 
 ## Getting found on Google
 
-1. [Google Search Console](https://search.google.com/search-console) → add property `house-bonita.com` (Domain type, verified with a DNS TXT record) → **Sitemaps** → submit `https://house-bonita.com/sitemap.xml`.
+1. [Google Search Console](https://search.google.com/search-console) → add property → choose **Domain** and enter `house-bonita.com`. Google then shows a line starting with `google-site-verification=`. At the domain registrar add a new record: type **TXT**, host `@`, value = that whole line. Back in Search Console press **Verify** (it can take a few minutes). Then open **Sitemaps** and submit `https://house-bonita.com/sitemap.xml`.
 2. Create a [Google Business Profile](https://www.google.com/business/) for the house with the same name, address and phone as on the site. This is what puts the house on Google Maps and in the "къща за гости Приморско" local results — it matters more than anything on the page itself.
 3. Check the structured data with the [Rich Results Test](https://search.google.com/test/rich-results).
 
