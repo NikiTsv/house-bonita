@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://house-bonita.com/sitemap.xml
