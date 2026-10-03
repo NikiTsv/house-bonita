@@ -1,4 +1,4 @@
-# Дом Бонита — house-bonita.com
+# Бонита — house-bonita.com
 
 Static landing page for the guest house in Primorsko. No build step: plain HTML, CSS and JS, hosted on GitHub Pages.
 
