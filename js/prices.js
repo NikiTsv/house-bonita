@@ -34,9 +34,9 @@ window.BONITA_PRICES = {
 
   // ПРИМЕРНИ ЦЕНИ — заменете с реалните.
   rooms: {
-    "room-4-bed": { low: 60, high: 80 }, // Четириместна стая
-    "studio-inhouse": { low: 50, high: 70 }, // Студио в къщата (мансарда)
-    "studio-ground": { low: 45, high: 60 }, // Студио на двора
+    "room-4-bed": { low: 45, high: 60 }, // Четириместна стая
+    "studio-inhouse": { low: 40, high: 55 }, // Студио в къщата (мансарда)
+    "studio-ground": { low: 35, high: 48 }, // Студио на двора
   },
 
   note: {
